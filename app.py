@@ -63,11 +63,12 @@ class App:
         pass
 
     def draw(self, screen):
-        screen.fill((255,255,255))
+        pass
 
     def listen(self, event):
         pass
 
     def update(self, dt):
-        # called every loop, dt = elapsed seconds from last call.
+        # Called every loop, dt = elapsed milliseconds from last call.
+        # Here for debug (to be overloaded)
         pygame.display.set_caption(f"FPS={round(self.clock.get_fps())} mouse={pygame.mouse.get_pos()}")
