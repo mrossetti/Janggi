@@ -50,6 +50,7 @@ class App:
                 if event.type == pygame.QUIT or \
                   (event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE):
                     stop = True
+                    break
                 self.listen(event)
 
             self.update(self.dt)
