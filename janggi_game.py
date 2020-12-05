@@ -6,7 +6,7 @@ from compass import Compass
 from janggi import Janggi
 
 
-class JanggiApp(App):
+class JanggiGame(App):
     """
     Janggi 4x3 in local multiplayer
     """
@@ -356,4 +356,4 @@ class JanggiApp(App):
 
 
 if __name__ == '__main__':
-    JanggiApp().run()
+    JanggiGame().run()
